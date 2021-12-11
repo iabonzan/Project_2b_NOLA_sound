@@ -1,0 +1,172 @@
+header {
+    background-color: black;
+    color: red;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+    font-size: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0 0 20px 0 black;
+}
+
+header h1 {
+    margin-left: 20px;
+    font-family: 'Raleway';
+}
+
+header * {
+    display: inline;
+}
+
+header li {
+    margin: 20px;
+    font-size: 20px;
+}
+
+header li a {
+    text-decoration: none;
+}
+
+body {
+    margin-top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+.hero {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('images/websiteimage2_edit_gimp.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.hero h1 {
+    font-size: 5em;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+.hero .btn {
+    display: block;
+    width: 200px;
+
+    padding: 1em;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+
+    border: 3px solid white;
+    border-radius: 20px;
+}
+
+.header .h1 {
+    color: red;
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+}
+
+a {
+    color: red;
+    font-family: 'Roboto Condensed', sans-serif;
+    line-height: 1.5;
+}
+
+main {
+    width: 1000px;
+    margin: auto;
+    padding-top: 35px;
+}
+
+#about {
+    color: black;
+    text-align: center;
+    font-family: 'Roboto Condensed';
+    background-color: white;
+    font-size: 20px;
+    opacity: 85%;
+    border-radius: 20px;
+    padding-bottom: 1px;
+    padding-top: 1px;
+}
+
+#about h2 {
+    font-family: 'Raleway';
+    color: red;
+    font-size: 35px;
+    line-height: 1px;
+}
+
+#equipmentAvaliable {
+    background-color: white;
+    color: black;
+    text-align: left;
+    font-family: 'Roboto Condensed';
+    font-size: 20px;
+    opacity: 85%;
+    border-radius: 20px;
+    padding-bottom: 1px;
+}
+
+#equipmentAvaliable h2 {
+    font-family: 'Raleway';
+    color: red;
+    text-align: center;
+    font-size: 35px;
+    line-height: 1px;
+    padding-top: 30px;
+}
+
+#ContactUs {
+    text-align: center;
+    color: black;
+    background-color: white;
+    font-family: 'Roboto Condensed';
+    font-size: 20px;
+    opacity: 85%;
+    border-radius: 20px;
+}
+
+#ContactUs h2 {
+    font-family: 'Raleway';
+    color: red;
+    font-size: 35px;
+    line-height: 70px;
+}
+
+.socialMedia{
+    color: red;
+}
+
+.socialMedia:hover {
+    color: lightcoral;
+}
+footer {
+    color: white;
+    text-align: center;
+    padding: 10px;
+    padding-top: 20px;
+    font-family: 'Roboto Condensed';
+}
